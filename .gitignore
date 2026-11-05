@@ -1,0 +1,43 @@
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Personal data: backups/exports from the app.
+# The app keeps data only in browser localStorage, never in the repo.
+vydaje-zaloha-*.json
+platby-*.csv
+backup/
+backups/
+exports/
+data/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local tooling and personal settings
+.claude/
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
