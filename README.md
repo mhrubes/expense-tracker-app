@@ -2,6 +2,8 @@
 
 Webová aplikace pro evidenci výdajů a příjmů: přehled s grafy, kalendář (měsíc / týden / den), seznam plateb s filtry a správa kategorií. Světlý i tmavý režim.
 
+**Online:** https://vydajo.vercel.app
+
 React + TypeScript + Vite, `zustand`, `date-fns`. Grafy jsou vlastní SVG/CSS bez knihovny.
 
 ## Spuštění
